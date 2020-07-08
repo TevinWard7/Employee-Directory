@@ -27,8 +27,10 @@ const EmployeeList = () => {
 
         <div className="container">
 
-        <h3>{searchName}</h3>
+        <div id="search">
+        <h3>"{searchName}"</h3>
         <input value={searchName.charAt(0).toUpperCase() + searchName.slice(1)} placeholder="Name" type="text" name="search" onChange={e => setSearchName(e.target.value)} />
+        </div>
 
         <br/>
 
