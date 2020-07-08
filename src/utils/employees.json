@@ -1,18 +1,25 @@
 [
     {
         "id": 1,
-        "name": "Joe"
+        "name": "Jimmi",
+        "image": "https://www.gstatic.com/tv/thumb/persons/31690/31690_v9_ba.jpg"
     },
     {
         "id": 2,
-        "name": "Tim"
+        "name": "Joaquin",
+        "image": "https://www4.pictures.zimbio.com/gi/Joaquin+Phoenix+EE+British+Academy+Film+Awards+z8Zbo444HXQl.jpg"
     },
     {
         "id": 3,
-        "name": "Ronny"
+        "name": "Terry",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Terry_A._Davis_%28cropped%29.jpg"
     },
     {
         "id": 4,
         "name": "Amanda"
+    },
+    {
+        "id": 5,
+        "name": "Kristen"
     }
 ]

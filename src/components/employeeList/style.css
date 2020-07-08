@@ -1,0 +1,16 @@
+
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: azure;
+}
+
+.card {
+    width: 18rem;
+}
