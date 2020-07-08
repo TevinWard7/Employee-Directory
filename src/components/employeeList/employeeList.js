@@ -7,6 +7,7 @@ const EmployeeList = () => {
     const [employeeState] = useState(Employees);
     const [searchName, setSearchName] = useState("");
     const employFiltered = employeeState.filter(employee => employee.name.includes(searchName));
+    const employSorted = employeeState.sort();
 
     const displayEmployees = () => {
         if (searchName) {
@@ -21,7 +22,11 @@ const EmployeeList = () => {
         } else {
             return employeeState.map(employee => <li>{employee.name}</li>)
         }
-    }
+    };
+
+    const sortEmployess = () => {
+return employSorted.map(employee => <li>{employee.name}</li>)
+    };
 
     return(
 
@@ -29,7 +34,7 @@ const EmployeeList = () => {
 
         <div id="search">
         <h3>"{searchName}"</h3>
-        <input value={searchName.charAt(0).toUpperCase() + searchName.slice(1)} placeholder="Name" type="text" name="search" onChange={e => setSearchName(e.target.value)} />
+        <input value={searchName.charAt(0).toUpperCase() + searchName.slice(1)} placeholder="Name" type="text" name="search" onChange={e => setSearchName(e.target.value)} /><button onClick={e => sortEmployess()}>A-Z</button>
         </div>
 
         <br/>

@@ -17,8 +17,9 @@ li {
     text-align: center;
     margin: 20px;
     padding: 20px;
-    border-style:solid;
-    border-color: #D0E1D4;
+    border-style: solid;
+    border-width: thin;
+    /* border-color: #D0E1D4; */
 }
 
 .card {
