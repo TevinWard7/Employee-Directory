@@ -12,7 +12,6 @@ const EmployeeList = () => {
 
     const [sortNames, setSortNames] = useState("");
 
-
     let defaultNameList = employeeState.map(employee => employee.name);
 
     const displayEmployees = () => {
