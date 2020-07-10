@@ -4,10 +4,16 @@ import "./style.css"
 
 const EmployeeList = () => {
 
+    // Json
     const [employeeState] = useState(Employees);
+
     const [searchName, setSearchName] = useState("");
     const employFiltered = employeeState.filter(employee => employee.name.includes(searchName));
-    const employSorted = employeeState.sort();
+
+    const [sortNames, setSortNames] = useState("");
+
+
+    let defaultNameList = employeeState.map(employee => employee.name);
 
     const displayEmployees = () => {
         if (searchName) {
@@ -19,14 +25,17 @@ const EmployeeList = () => {
             </div>
           </div>
             )
-        } else {
-            return employeeState.map(employee => <li>{employee.name}</li>)
+        }
+        if (sortNames === "true") {
+            defaultNameList = defaultNameList.sort()
+            return defaultNameList.map((name) => <li>{name}</li>)
+        }
+        else {
+            return defaultNameList.map((name) => <li>{name}</li>)
         }
     };
 
-    const sortEmployess = () => {
-return employSorted.map(employee => <li>{employee.name}</li>)
-    };
+    console.log(defaultNameList)
 
     return(
 
@@ -34,7 +43,7 @@ return employSorted.map(employee => <li>{employee.name}</li>)
 
         <div id="search">
         <h3>"{searchName}"</h3>
-        <input value={searchName.charAt(0).toUpperCase() + searchName.slice(1)} placeholder="Name" type="text" name="search" onChange={e => setSearchName(e.target.value)} /><button onClick={e => sortEmployess()}>A-Z</button>
+        <input value={searchName.charAt(0).toUpperCase() + searchName.slice(1)} placeholder="Name" type="text" name="search" onChange={e => setSearchName(e.target.value)} /><button onClick={e => setSortNames("true")}>A-Z</button>
         </div>
 
         <br/>
