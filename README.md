@@ -7,7 +7,11 @@ Tech Used
 Site
 
 ## User Story
-As a user I want to be able view a list of my employees
+<span style="color: green"> 
+As a User 
+I want to be able view a list of my employees
+So that I can keep track of my team
+</span>
 
 ## Tech Used
 

@@ -1,12 +1,16 @@
 @font-face {
-  src: url(./fonts/apercu/Apercu\ Pro\ Regular.otf);
+  src: url(./fonts/apercu/Apercu\ Pro\ Medium.otf);
 	font-family: apercu;
 }
 
 * {
   font-family: apercu;
-  font-size: large;
+  font-size: medium;
   color: black;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 button {
