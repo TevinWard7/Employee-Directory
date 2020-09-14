@@ -20,3 +20,12 @@ li {
 .card {
     width: 18rem;
 }
+
+.card > p {
+    opacity: 0;
+}
+
+.card:hover p {
+    opacity: 1;
+}
+

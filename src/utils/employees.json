@@ -2,26 +2,32 @@
     {
         "id": 1,
         "name": "Jimmi",
-        "image": "https://www.gstatic.com/tv/thumb/persons/31690/31690_v9_ba.jpg"
+        "image": "https://www.gstatic.com/tv/thumb/persons/31690/31690_v9_ba.jpg",
+        "role": "Software Developer",
+        "salary": "$100,560"
     },
     {
         "id": 2,
         "name": "Joaquin",
-        "image": "https://www4.pictures.zimbio.com/gi/Joaquin+Phoenix+EE+British+Academy+Film+Awards+z8Zbo444HXQl.jpg"
+        "image": "https://www4.pictures.zimbio.com/gi/Joaquin+Phoenix+EE+British+Academy+Film+Awards+z8Zbo444HXQl.jpg",
+        "role": "Programmer"
     },
     {
         "id": 3,
         "name": "Terry",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Terry_A._Davis_%28cropped%29.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Terry_A._Davis_%28cropped%29.jpg",
+        "role": "Senior Software Engineer"
     },
     {
         "id": 4,
         "name": "Ivanka",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ivanka_Trump_official_portrait_%28cropped%29.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ivanka_Trump_official_portrait_%28cropped%29.jpg",
+        "role": "Coder"
     },
     {
         "id": 5,
         "name": "Dionysus",
-        "image": "https://cdn.britannica.com/04/186604-050-980E8365/oil-Bacchus-canvas-Caravaggio-Florence-Italy-Uffizi.jpg"
+        "image": "https://cdn.britannica.com/04/186604-050-980E8365/oil-Bacchus-canvas-Caravaggio-Florence-Italy-Uffizi.jpg",
+        "role": "Software Architect"
     }
 ]

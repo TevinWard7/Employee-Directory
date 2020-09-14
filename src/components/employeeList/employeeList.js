@@ -18,9 +18,10 @@ const EmployeeList = () => {
         if (searchName) {
             return employFiltered.map(employee => 
             <div className="card">
-            <img src={employee.image} class="card-img-top" alt="profile" height="10%"/>
-            <div className="card-body">
-            <h5 class="card-title">{employee.name}</h5>
+                <p>{employee.role}</p>  
+                <img src={employee.image} class="card-img-top" alt="profile" height="10%"/>
+                <div className="card-body">
+                <h5 class="card-title">{employee.name}</h5>
             </div>
           </div>
             )
